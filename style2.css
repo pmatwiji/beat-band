@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face{
+  font-family: 'retro';
+  src: url(fonts/Retro.ttf)
+}
+
+html, body{
+  margin:0px;
+  padding:0px;
+}
+
+.menu{
+  background: black;
+  height: 5vh;
+  border-top: solid 4px #449f96;
+  text-align: center;
+}
+
+ul{
+  text-align: center;
+  display: inline-block;
+}
+
+li{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 1em;
+}
+
+li.active, i.active{
+  color: #449f96;
+}
+
+.slide{
+  background: url(img/back.jpg) no-repeat 50% 50%;
+  position: relative;
+  height: 190vh;
+  background-size: cover;
+
+}
+
+.contenedor{
+  position: absolute;
+  width: 65%;
+  height: 50vh;
+  top: 390px;
+  left: 20%;
+
+}
+
+.cuadrados{
+  width: 32%;
+  height: 30vh;
+  background: rgba(000,000,000, 0.5);
+  float: left;
+  margin: 3px 3px;
+  box-sizing: border-box;
+  position: relative;
+  
+}
+
+.uno{
+  background: url(img/consola.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.ig, .tw, .file{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: black;
+}
+
+.ig .fa-instagram, .tw .fa-twitter, .file .fa-file-alt{
+  color: #449f96;
+  font-size: 25px;
+  padding: 13px;
+}
+
+
+
+.video, .music{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #449f96;
+  display: inline-block;
+  z-index: 1;
+}
+
+.video .fa-video, .music .fa-music {
+  font-size: 28px;
+  padding: 10px;
+  color: white;
+}
+
+.text-cuadro{
+ color: white;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  width: 290px;
+  padding-top: 80px;
+  padding-left: 34px;
+  height: 200px;
+}
+
+.bandName {
+  display: inline-block;
+}
+
+.arroba{
+    display: inline-block;
+    color: #449f96;
+}
+
+.tweet{
+  font-size: 12px;
+  color: #999;
+}
+
+.arroba-tuit{
+    color: #449f96;
+}
+
+.tres{
+  background: url(img/video.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.text-video{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  background-color: #449f96;
+  padding: 16px 0 15px 70px;
+  opacity: 0.8;
+}
+
+.cinco{
+  background: url(img/concert.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.bot-concert{
+  background: rgba(000,000,000, 0.5);
+  position: absolute;
+  bottom: 0%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 16px 0 30px 17px;
+  width: 94%;
+  font-size: 13px;
+}
+
+.arrow{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #449f96;
+  z-index: 1;
+  bottom: 10px;
+  right: 10px;
+}
+
+  .arrow .fa-angle-right{
+   font-size: 25px;
+   padding: 8px;
+   padding-left: 14px;
+  }
+
+  .theBand-cont{
+    width: 22%;
+    height: 20%;
+    position: absolute;
+   /*background: rgba(255, 255, 255, 0.137);*/
+    bottom: 450px;
+    left: 385px;
+  }
+
+  .theBand{
+    font-family: 'retro', sans-serif;
+    font-size:68px;
+    color: #449f96;
+  }
+
+  .band-desc{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #999;
+    float: left;
+    text-align: left;
+  }
